@@ -3,8 +3,8 @@ class Mtls < Formula
 
   desc "Short-lived certificate tool based on the Zero Trust network model"
   homepage "https://github.com/drGrove/mtls-cli"
-  url "https://files.pythonhosted.org/packages/54/dc/d62ce5279f1f1184e0cd1c34c82081b77945141d36636de202fc150e853d/mtls-0.14.1.tar.gz"
-  sha256 "a5453895811488f7591debff5a358a5afc7ba7af33c54d457cd513cb1beb8e83"
+  url "https://files.pythonhosted.org/packages/19/39/ff5131748c2e6d6eceef12dafa3de0502fb23b9647a0fcc67470c43c7bca/mtls-0.14.2.tar.gz"
+  sha256 "be8e53ff04b1d47e2a28369bee668da6886cceea035e82d1f4cd2fc5e008f20b"
 
   depends_on "python"
   depends_on "gpg2"
@@ -31,8 +31,8 @@ class Mtls < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/5d/4b/7bb135c5787c003cdbc44990c5f41908f0f37135e0bb554e880d90fd5f6f/cryptography-3.1.1.tar.gz"
-    sha256 "9d9fc6a16357965d282dd4ab6531013935425d0dc4950df2e0cf2a1b1ac1017d"
+    url "https://files.pythonhosted.org/packages/94/5c/42de91c7fbdb817b2d9a4e64b067946eb38a4eb36c1a09c96c87a0f86a82/cryptography-3.2.1.tar.gz"
+    sha256 "d3d5e10be0cf2a12214ddee45c6bd203dab435e3d83b4560c03066eda600bfe3"
   end
 
   resource "idna" do

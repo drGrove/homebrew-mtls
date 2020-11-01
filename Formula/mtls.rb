@@ -3,8 +3,8 @@ class Mtls < Formula
 
   desc "Short-lived certificate tool based on the Zero Trust network model"
   homepage "https://github.com/drGrove/mtls-cli"
-  url "https://files.pythonhosted.org/packages/19/39/ff5131748c2e6d6eceef12dafa3de0502fb23b9647a0fcc67470c43c7bca/mtls-0.14.2.tar.gz"
-  sha256 "be8e53ff04b1d47e2a28369bee668da6886cceea035e82d1f4cd2fc5e008f20b"
+  url "https://files.pythonhosted.org/packages/95/c2/2939475ad39f692cffcd8c72160b790e2b0ec5cbe5423f33ec2c9b8c7c89/mtls-0.14.3.tar.gz"
+  sha256 "7a602b884d8cd09705b7624e2ec1094439579c77abcf3ec5482a893482e8aebb"
 
   depends_on "python"
   depends_on "gpg2"
